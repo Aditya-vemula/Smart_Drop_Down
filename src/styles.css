@@ -1,0 +1,84 @@
+h1,
+p {
+  font-family: Lato;
+}
+.mainContainer {
+  border: 1px solid;
+  width: 300px;
+}
+.dropDownHeaderDiv {
+  display: flex;
+  align-items: center;
+}
+.dropDownHeaderText {
+  padding: 10px 20px 10px 20px;
+  width: 70%;
+  border-right: 1px solid;
+}
+.arrow {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  margin: 0 10px 0 10px;
+}
+.downArrow {
+  border-top: 10px solid black;
+}
+.upArrow {
+  border-bottom: 10px solid black;
+}
+.container {
+  padding: 10px;
+  border-top: 1px solid;
+  display: block;
+  height: auto;
+}
+.inputField {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+}
+.inputField::after {
+  content: "\1F50D";
+  margin-right: 10px;
+}
+.optionsContainer {
+  width: auto;
+  list-style: none;
+  padding: 0;
+}
+.option {
+  padding: 5px;
+}
+.option:hover {
+  background-color: #ebecf0;
+}
+.option.hide {
+  display: none;
+}
+.addOption {
+  display: flex;
+  align-items: center;
+}
+.addOptionButton {
+  background: none;
+  border: 1px solid;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: auto;
+}
+.viewMoreButton {
+  background: none;
+  border: none;
+  float: right;
+  margin-top: -10px;
+}
+.viewMoreButton.hide {
+  display: none;
+}
+.otherOptionsContainer {
+  display: "flex";
+  flex-direction: "column";
+  width: "300px";
+  margin-top: "20px";
+}
